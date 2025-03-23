@@ -1,0 +1,10 @@
+.DS_Store
+.githooks/hooks.log
+.hugo_build.lock
+hugo*.exe
+**/*.xcf
+**/*.zip
+/public/
+art/Visual2_QR_Sign.afdesign~lock~
+_material_collection/~$Code2_Termine_2025_SS.xlsx
+themes/hugo-theme-relearn_old
