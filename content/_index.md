@@ -1,11 +1,10 @@
 +++
 archetype = "home"
-date = 2025-03-24T15:27:29+02:00
 draft = false
 weight = 0
 +++
 
-## Veranstaltungsziele
+## Veranstaltungszielee
 
 - Teamwork in interdisziplinären Teams in medienbezogener SW-Entwicklung
   - Domänenwissen ist verteilt
@@ -53,11 +52,14 @@ weight = 0
   - Skill-Test: Werden alle Tools beherrscht
 
 
- ## Teamfindung
+## Teamfindung
 
 - Bis spätestens zum Pre-Flight
 - Jedes Team möglichst hälftig aus Technikern und hälftig aus Modellern/Artists/Konzeptern
   - Zugehörigkeit nach Selbsteinschätzung/Interesse. Semester soll zum Skill-Aufbau in der gewählten Disziplin genutzt werden.
+
+
+## Semestertermine
 
 | Datum       | Inhalt                          |
 |-------------|---------------------------------|
