@@ -24,6 +24,7 @@ weight = 10
 
 - [Godot-Engine](https://godotengine.org/)
 - [Einführungstutorial 3+h](https://www.youtube.com/watch?v=A3R6T1h0ln8)
+- [Godot Physics](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
 - [GD-Script-Referenz](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 - ["Millimeter-Papier" Textur](images/MeterGrid.png)
 - Optional:
