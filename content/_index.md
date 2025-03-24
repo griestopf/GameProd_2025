@@ -83,8 +83,6 @@ weight = 0
 
 ## Links zur Website
 
-### Kurzlink
-https://hfu.li/GAM-PRD
-
+### Kurzlink: [hfu.li/GAM-PRD](https://hfu.li/GAM-PRD)
 
 ![QR-Code](./QR-Code.svg)
