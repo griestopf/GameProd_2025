@@ -6,9 +6,16 @@ weight = 30
 
 Dieses Kapitel zeigt einen Workflow in der 3D-Software [Blender](https://www.blender.org/download/) zur Erstellung von 3D-Modellen, die durch reale Objekte inspiriert sind.
 
+Der Workflow durchläuft die folgenden Stufen:
+
+![](imgnew/00_Workflow.png)
+
+Der Vorteil dieses Workflows ist, dass bis zum Schritt 3 (Retopology), nur die Form des Modells eine Rolle spielt. Hier muss noch kein Augenmerk auf die Realisierung als funktionierendes Modell in einer Game-Engine gelegt werden. Erst in späteren Schritte 
+
+
 ## 1. Referenz-Material sammeln und organisieren
 
-Zur Organisation von Bildmaterial, das bei der Modellierung als Referenz dient, eignet sich die kostenlose Software [PureRef](https://www.pureref.com/download.php). In dieser können Ansichten, Inspirationsbilder etc. für das zu erstellende Modell gesammelt werden, so dass diese bei der Modellierung immer zur Verfügung stehen.
+Vor dem Modeling ist es hilfreich, Referenz-Bilder zu sammeln. Hier muss es nicht darum gehen, exakte Abbildungen des späteren Modells zu erstellen. Oft genügt auch eine Sammlung von Bildern, die als Inspiration dienen. Zur Organisation von Bildmaterial, das bei der Modellierung als Referenz dient, eignet sich die kostenlose Software [PureRef](https://www.pureref.com/download.php). In dieser können Ansichten, Inspirationsbilder etc. für das zu erstellende Modell gesammelt werden, so dass diese bei der Modellierung immer zur Verfügung stehen.
 
 ![](img/00_PureRef.png)
 

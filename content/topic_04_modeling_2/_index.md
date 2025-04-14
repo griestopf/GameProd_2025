@@ -9,9 +9,7 @@ weight = 30
 ## 4. Retopologisierung
 
 Mit den bis jetzt dargestellten Mitteln kann die gewünschte *Geometrie*
-(die Form) erreicht werden. Für ein brauchbares Modell - insbesondere,
-wenn es in Echtzeit auf möglicherweise schwachbrüstiger Hardware
-(Mobilgeräte) dargestellt werden soll - ist auch eine gute *Topologie*
+(die Form) erreicht werden. Für ein brauchbares Modell (animierbar, UV-unwrap-bar, auf Mobilgeräten und anderer schwachbrüstiger Hardware in Echtzeit darstellbar) ist auch eine gute *Topologie*
 wünschenswert. Dies beschreibt die Anzahl und Aufteilung der Flächen
 (Faces, Polygons, Quads). Hier gilt es, vor allem folgende
 Randbedingungen einzuhalten:
@@ -132,9 +130,9 @@ Um einen länglichen Teil mit einer Kappe zu schließen, verwende den Grid Fill-
 ### Automatische Retopologisierung
 
 Da die Retopologisierung von Hand aufwändig ist und viel Erfahrung
-benötigt, gibt es zahlreiche Blender Add-ons, die auf Knopfdruck
-retopologisieren können. Ein sehr brauchbares, allerdings
-kostenpflichtiges Add-on ist der [Quad Remesher von
+benötigt, gibt es zahlreiche Tools und Blender Add-ons, die auf Knopfdruck
+retopologisieren können. Einen Überblick über aktuelle automatische Verfahren gibt dieses [Video von Russel Midfield](https://www.youtube.com/watch?v=CviZw41IbMg). Das dort als am leistungsfähigsten bewertete,  allerdings
+kostenpflichtige Werkzeug ist das Blender Add-on [Quad Remesher von
 Exoside](https://exoside.com/quadremesher/).
 
 #### Quad Remesher installieren
@@ -189,37 +187,40 @@ Pixologic](https://pixologic.com/zbrush/downloadcenter/alpha/).
 Das nun extrem hoch aufgelöste Modell kann auf eine niedrig aufgelöstere Version heruntergebrochen werden, wobei Details der hohen Auflösung mit Hilfe einer Normalen-Map auf die niedrig aufgelöste Variante aufgebracht wird. Dadurch verhält sich das niedrig aufgelöste Modell für die Beleuchtungsberechnung wie das hoch aufgelöste Modell.
 
 
-#### Low-Poly Version erzeugen
 
-Durch den Multiresolution-Modifier sind mehrere Auflösungsstufen gleichzeitig vorhanden. Für das niedrig aufgelöste Modell wird eine Kopie angelegt, die Änderungen aus dem Sculpting angewendet, soweit es die niedrige Polygonzahl erlaubt und der Multires-Modifier entfernt.
+### Unwrap Lo-Poly Geometrie, um Texturkoordinten (UVs) zu erzeugen
 
-![](img/15_CreateLoPolyCopy.png)
+![](img/16_UnwrapGeometryToCreateUVs.png)
 
-#### Unwrap Lo-Poly Geometrie, um Texturkoordinten (UVs) zu erzeugen
 
 Um die zu generierende Normalen-Map auf das niedrig aufgelöste Modell als Textur anwenden zu können, müssen Texturkoordinaten generiert werden. Das UV-Unwrapping ist, wie das Sculpting und das Retopologisieren von Hand eine zeitaufwändige Fleißarbeit. Auch hier gilt: Je sorgfältiger, desto besser das Modell. Zur Demonstration wird hier ein automatisches UV-Unwrapping verwendet, das meist keine sehr guten Ergebnisse liefert.
 
 Ein paar Einblicke über Techniken und Werkzeuge für gutes UV-Unwrapping liefert z. B. [dieses Tutorial](https://www.youtube.com/watch?v=8qv6DbWr6zw).
 
-![](img/16_UnwrapGeometryToCreateUVs.png)
 
-#### Lo-Poly-Material vorbereiten und leere Normalen-Textur erzeugen
+### Normal Baking
+Schritt-für-Schritt-Anleitung, um vom high-poly Sculpting-Ergebnis zu einer low-poly Version zu kommen, die alle detailreichen Strukturen in einer Normalen-Map enthält.
 
-![](img/17_PrepareMaterialAndCreateEmptyNormalTexture.png)
+#### Schritt 1 - Vorbereitung für das Backen
 
-#### Im Lo-Poly-Material Textur-Node als "Normalen-Empfänger" anlegen
+![Vorbereitung für das Backen](imgnew/day_09_normalbaking_01.png)
 
-![](img/18_CreateTextureNodeAsNormalReceiver.png)
+#### Schritt 2 - Low-Poly aus High-Poly-Modell erstellen
 
-#### Die Normalen-Textur backen
+![Low-Poly aus High-Poly-Modell erstellen](imgnew/day_09_normalbaking_02.png)
 
-![](img/19_PerformTheBake.png)
+#### Schritt 3 - Eine Textur für die Normalen erstellen
 
-#### Normalen-Textur anwenden und Resultat überprüfen
+![Eine Textur für die Normalen erstellen](imgnew/day_09_normalbaking_03.png)
 
-![](img/20_CheckResult.png)
+#### Schritt 4 - Backen!
 
-![](img/21_CheckResult_2.png)
+![Backen!](imgnew/day_09_normalbaking_04.png)
+
+#### Schritt 5 - Ergebnis ansehen/optimieren
+
+![Ergebnis ansehen/optimieren](imgnew/day_09_normalbaking_05.png)
+
 
 ## 7. Zur Belohnung ein Pferdle-Pils
 
