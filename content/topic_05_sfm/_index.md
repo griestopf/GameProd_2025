@@ -12,13 +12,12 @@ weight = 50
 - Mind. einen Kreis um das Objekt aufnehmen (blau)
   - Alle 10° ein Bild: 36 Aufnahmen pro Kreis
   - Blickrichtung möglichst horizontal (nicht von oben nach unten)
-- Ggf. zweiten Kreis leicht von oben mit leicht nach unten geneigtem Blickwinkel: weitere 36 Bilder
+- Ggf. zweiten Kreis leicht von oben mit leicht nach unten geneigtem Blickwinkel: weitere 36 Bilder. Den ersten Kreis dann eher leicht von unten nach oben geneigt aufnehmen.
 - Vier 180°-Bögen (alle 45° einen Bogen) über das Objekt mit 10-20 Bildern pro Bogen (rot/grün)
 - [Hilfs-Untergrund mit 10°- und 45°-Kreiseinteilung verwenden](img/ScanningCompas.pdf), um Überblick bei den Aufnahmen zu behalten.
   ![Scanning Setup](img/ScanningSetup.png)
-
 - Um die Bilder zu schießen, mit Kamera um das Objekt laufen. Nicht das Objekt drehen
-- Falls erwünscht: Gleiche Prozedur für die Rückseite (Standfläche der ersten Aufnahme)
+- Falls erwünscht: Gleiche Prozedur für die Rückseite (Standfläche der ersten Aufnahme). 
 - Entscheiden, ob Bilder nachbearbeitet/angeglichen werden sollen: 
   - Falls ja (mehr Arbeit, bessere Ergebnisse): 
     - Raw aufnehmen
@@ -96,6 +95,11 @@ Schritte
 - Bilder per Drag and Drop oder per Workflow-Riboon → Inputs auswählen. Im Objekt-Baum des "1Ds"-Fenster sollten die Bilder unter Inputs erscheinen.
   ![Import and Align](img/05_RelCap_import_align.png)
 
+
+## TODO: Prozess bei zweigeteilter Aufnahme von Oben und Unten
+
+- TODO: Rekonstruktion eines von oben und unten erfassten 3D-Modells und Masken-Generierung
+  wie in [diesem Tutorial](https://www.youtube.com/watch?v=4qFl4k37dDc) beschrieben.
 
 ## 4. Kamera-Positionen und Punktwolke rekonstruieren und ausrichten
 
