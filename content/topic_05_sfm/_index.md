@@ -136,7 +136,7 @@ Schritte
 - Mit "Workflow" → "3. Output" → "Export" das Modell in eine FBX-Datei exportieren
 
 
-## Modell fixen, Low-Poly Version erzeugen
+## 6. Modell fixen, Low-Poly Version erzeugen
 
 - Das FBX-Modell in Blender importieren. 
 - Vorhandene Löcher Schließen (wasserdicht machen). Dazu gibt es mehrere Methoden:
@@ -150,7 +150,7 @@ Schritte
   2. Retopologisieren, z. B. mit dem (kostenpflichtigen) Add-On "Quad Remesher".
 - "Wasserdichte" Low-Poly Version als FBX exportieren
 
-## Texturen in Reality Capture backen und exportieren
+## 7. Texturen in Reality Capture backen und exportieren
 
 - "Mesh Model"-Menüband → "Mesh Color & Texture"-Abschnitt → "Settings" aufrufen. Dann in den "Color and Texture Settings die Einstellungen "Downscale images before texturing", sowie "Downscale...coloring" jeweils auf 1 stellen.
 - Das wasserdichte Hi-Poly-Modell unter "Mesh Model" → "Import" → "Import Model" importieren. Importiertes Modell umbenennen (z.B. "xyz_watertight_hipoly").
