@@ -115,7 +115,7 @@ Schritte
   ![Navigating](img/06_Navigation.png)
 - Ausrichten der "Ground Plane"
   - Unter "Scene 3D" → "Tools" → "Scene Alignment" → den "Set Ground Plane" Button aktivieren.
-  - Es erscheint ein 3D-Positionierungs und Rotations-Gizmo, mit dem die gesamte Szene (Punktwolke und Kameras") verschoben uind um den Pivot-Punkt gedreht werden kann.
+  - Es erscheint ein 3D-Positionierungs und Rotations-Gizmo, mit dem die gesamte Szene (Punktwolke und Kameras") verschoben und um den Pivot-Punkt gedreht werden kann.
   ![Set Ground Plane](img/07_set_ground_plane.png)
 - Ist die Szene mittig platziert und korrekt ausgerichtet (Kamera-Halbkugel über dem Objekt. Objekt steht korrekt gedreht in der Szene), kann die "Reconstruction Region" gesetzt werden. Durch das Drehen der ganzen Szene ist diese nun eventuell schief im Raum verdreht
 - Mit "Scene 3D" → "Tools" → "Scene Alignment" → "Set Reconstruction Region" → "Set Region Automatically" wird die Region (dargestellt als Box) wieder entlang der Hauptachsen um die Punktwolke ausgerichtet. Dann kann sie mit den bunten Anfassern vergrößert oder verkleinert werden. Auch hier helfen die parallelen Seitenansichten.
