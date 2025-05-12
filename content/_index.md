@@ -72,9 +72,9 @@ weight = 0
 | Mo 28. Apr  | 3D-Rekonstruktion SFM           |
 | Mo 05. Mai  | 3D-Rekonstruktion SFM           |
 | Mo 12. Mai  | Char-Anim for Games             |
-| Mo 19. Mai  | Char-Anim for Games             |
-| Mo 26. Mai  | Puffer (ggf. weitere Themen)    |
-| Mo 02. Jun  | Pre-Flight: Kick-Off            |
+| Mo 19. Mai  | Pre-Flight: Kick-Off            |
+| Mo 26. Mai  | Pre-Flight: Arbeit an Prototyp  |
+| Mo 02. Jun  | Pre-Flight: Arbeit an Prototyp  |
 | Mo 09. Jun  | Pfingsten                       |
 | Mo 16. Jun  | Pre-Flight: Arbeit an Prototyp  |
 | Mo 23. Jun  | Pre-Flight: Arbeit an Prototyp  |
