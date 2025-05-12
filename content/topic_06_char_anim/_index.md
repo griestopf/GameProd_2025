@@ -30,7 +30,7 @@ Erstellt eine einfache Szene, die aus einer CSG-Bodenebene und einigen CSG-Hinde
 - Verwendet nicht die Eigenschaft "Node3D/Transform/Scale" der Objekte, um deren Größe anzupassen. Verwendet stattdessen die Eigenschaft "CSG*Box*3D/Size"! Andernfalls funktioniert die Physik-Engine nicht korrekt.  
 - Weist euren Umgebungsobjekten ein Material mit der - ["Dezimeter-Gitter"-Textur](img/MeterGrid.png) zu und lasst es triplanare UVs generieren (unter der UV1-Einstellung des Materials). Stellt es auf "World Triplanar" und passt die Skalierung an, damit das Gitter in Metern erscheint.  
 
-## Importieren und Kombinieren mehrerer Knochenanimationen von Mixamo
+## Importieren und Kombinieren mehrerer Char-Animationen aus Mixamo
 
 Mixamo unterstützt nur FBX (verschiedene Dialekte) und Collada (DAE). Verwendet FBX! Der Collada-Export sieht in Blender - zumindest für das 3D-Modell (Skin) - unschön aus.
 
