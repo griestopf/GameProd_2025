@@ -81,6 +81,38 @@ weight = 0
 | Mo 30. Jun  | Pre-Flight: Präsentation        |
 
 
+## Pre-Flight
+
+- Erstellt eine Interaktion, die real erstellte und per SFM gescannte Assets enthält:
+  - mindestens ein animierter Character
+  - mindestens ein nicht animierter Gegenstand (Prop)
+  - mindestens eine Kulisse (Stage, Szene) 
+
+Anforderungen
+  - Alle Objekte sollten mindestens eine Albedo- und eine Normalen-Textur enthalten
+  - Die Albedo-Textur sollte möglichst frei von Beleuchtungseffekten sein
+    - Keine Schatten
+    - Keine Glanzlichter
+  - Der Character 
+    - soll mit einem Rigg und mit Animationen versehen sein.
+    - soll interaktiv gesteuert werden können.
+
+- Fragen, die für den Game-Jam im Rahmen des Pre-Flight beantwortet werden sollen
+  - Wer übernimmt welche Skills im Team?
+  - Mit welchen Werkzeugen wollen wir arbeiten?
+    - Software
+    - Physikalische Materialien
+  - Wie funktionieren unsere Prozesse?
+    - Erstellen von physischen Modellen
+    - Scanning, Postpro der Scans
+    - Aufbereitung als Game-Assets
+    - Erstellen und integrieren von Animationen
+    - Integration von Assets und Code
+    - Arbeitsteilige Entwicklung mit Git?hub?-Repo
+  - Wie lange benötigen wir für die Erstellung, Scanning und Integration bestimmter Objekte
+  - Wie lange benötigen weitere Gewerke der Game-Erstellung
+
+
 ## Links zur Website
 
 ### Kurzlink: [hfu.li/GAM-PRD](https://hfu.li/GAM-PRD)
